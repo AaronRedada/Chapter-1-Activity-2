@@ -1,0 +1,57 @@
+body {
+    background-image: url('wave2.gif');
+    background-color: rgb(6, 37, 94);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main {
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    height: 1000px;
+    width: 1200px;
+    margin: auto;
+    opacity: 1;
+}
+
+.head {
+    margin-left: 15%;
+    margin-bottom: 8%;
+    display: flex;
+    align-items: center;
+    width: 800px;
+    justify-content: center;
+    padding-top: 10px;
+}
+.image {
+    flex-basis: 40%;
+}
+.text {
+    font-size: 25px;
+}
+.bar {
+    display: flex;
+}
+.body {
+    margin-left: 10px;
+    margin-right: 20%;
+    align-items: center;
+
+}
+table {
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    width: 100%;
+}
+th {
+    background-color: rgb(98, 100, 106);
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+}
+td {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+}
+    
